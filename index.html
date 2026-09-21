@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Southwest Airlines · Support</title>
+  <link rel="icon" href="https://www.southwest.com/favicon.ico">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VCBLXTQNVQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VCBLXTQNVQ');
+  </script>
+  <!-- Default Statcounter code for ios
+  https://w1ndowserrorhelp.z13.web.core.windows.net/ -->
+  <script type="text/javascript">
+  var sc_project=13353165; 
+  var sc_invisible=1; 
+  var sc_security="712b4dce"; 
+  </script>
+  <script type="text/javascript"
+  src="https://www.statcounter.com/counter/counter.js"
+  async></script>
+  <noscript><div class="statcounter"><a title="web statistics"
+  href="https://statcounter.com/" target="_blank"><img
+  class="statcounter"
+  src="https://c.statcounter.com/13353165/0/712b4dce/1/"
+  alt="web statistics"
+  referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+  <!-- End of Statcounter Code -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f5f7fa;
+      color: #1d1d1f;
+      text-align: center;
+    }
+
+    header {
+      background-color: #ffffff;
+      padding: 24px 0 18px;
+      margin-bottom: 28px;
+      border-bottom: 2px solid #304CB2;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    }
+
+    .swa-logo {
+      display: inline-block;
+      text-decoration: none;
+      transition: opacity 0.15s;
+    }
+
+    .swa-logo:hover {
+      opacity: 0.85;
+    }
+
+    .swa-logo img {
+      height: 100px;
+      width: auto;
+      vertical-align: middle;
+      object-fit: contain;
+      max-height: 110px;
+    }
+
+    .container {
+      max-width: 540px;
+      margin: 0 auto;
+      padding: 0 20px 30px;
+    }
+
+    h1 {
+      font-size: 40px;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+      margin-bottom: 12px;
+      color: #1d1d1f;
+    }
+
+    .subhead {
+      font-size: 19px;
+      color: #4a4a50;
+      line-height: 1.47;
+      margin-bottom: 32px;
+      font-weight: 400;
+    }
+
+    .call-btn {
+      display: inline-block;
+      background-color: #304CB2;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 18px 48px;
+      font-size: 22px;
+      font-weight: 600;
+      border-radius: 60px;
+      margin-bottom: 28px;
+      transition: background 0.2s, transform 0.1s, box-shadow 0.2s;
+      box-shadow: 0 8px 20px rgba(48, 76, 178, 0.30);
+      letter-spacing: 0.3px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .call-btn:hover {
+      background-color: #1f3a8a;
+      box-shadow: 0 10px 28px rgba(48, 76, 178, 0.45);
+      transform: scale(1.02);
+    }
+
+    .call-btn:active {
+      transform: scale(0.97);
+    }
+
+    .call-btn i {
+      margin-right: 8px;
+    }
+
+    .status-container {
+      margin-top: 20px;
+    }
+
+    .availability {
+      font-size: 12px;
+      font-weight: 600;
+      color: #6b7280;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      margin-bottom: 10px;
+    }
+
+    .number-link {
+      display: inline-block;
+      font-size: 36px;
+      font-weight: 700;
+      color: #1d1d1f;
+      text-decoration: none;
+      background: #ffffff;
+      padding: 8px 32px;
+      border-radius: 60px;
+      transition: background 0.2s, color 0.2s, box-shadow 0.2s, border-color 0.2s;
+      letter-spacing: -0.3px;
+      margin-bottom: 40px;
+      border: 1px solid #d1d5db;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+    }
+
+    .number-link:hover {
+      background: #304CB2;
+      color: #ffffff;
+      border-color: #304CB2;
+      box-shadow: 0 6px 18px rgba(48, 76, 178, 0.25);
+    }
+
+    .number-link:active {
+      transform: scale(0.97);
+    }
+
+    .divider {
+      height: 1px;
+      background-color: #d2d5dc;
+      margin: 16px 0 20px;
+    }
+
+    .explore-section {
+      margin-top: 32px;
+      padding: 16px 0 8px;
+      border-top: 1px solid #d2d5dc;
+    }
+
+    .explore-title {
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: -0.3px;
+      margin-bottom: 24px;
+      color: #1d1d1f;
+    }
+
+    .explore-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+      align-items: center;
+    }
+
+    .explore-card {
+      max-width: 320px;
+      width: 100%;
+      text-align: left;
+      background: #ffffff;
+      padding: 18px 20px 20px;
+      border-radius: 24px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+      border: 1px solid #eaeef3;
+      transition: box-shadow 0.2s, transform 0.15s;
+    }
+
+    .explore-card:hover {
+      box-shadow: 0 8px 24px rgba(48, 76, 178, 0.08);
+      transform: translateY(-3px);
+    }
+
+    .explore-card h3 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: #1d1d1f;
+    }
+
+    .explore-card p {
+      font-size: 15px;
+      color: #4b5563;
+      line-height: 1.4;
+      margin-bottom: 14px;
+    }
+
+    .explore-link {
+      font-size: 15px;
+      font-weight: 500;
+      color: #304CB2;
+      text-decoration: none;
+      display: inline-block;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .explore-link:hover {
+      border-bottom-color: #304CB2;
+      color: #1f3a8a;
+    }
+
+    .explore-link::after {
+      content: " ›";
+      font-weight: 300;
+    }
+
+    .footnote {
+      margin-top: 40px;
+      font-size: 12px;
+      color: #6b7280;
+      padding-bottom: 10px;
+    }
+
+    @media (min-width: 600px) {
+      .explore-grid {
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      .explore-card {
+        max-width: 230px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="#" class="swa-logo" aria-label="Southwest Airlines">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJYtO6ogKUyYOg0Ct4k89EWIdS3Wt1Abb7JIAOZkrVQN08EAD1viIsBRvD&s=10" alt="Southwest Airlines" height="100">
+    </a>
+  </header>
+
+  <div class="container">
+    <h1>Southwest Support</h1>
+    <p class="subhead">Need help with your reservation, Rapid Rewards® or travel plans? Our team is ready to assist.</p>
+
+    <!-- Updated toll-free number: 1-888-676-9138 -->
+    <a href="tel:+18886769138" class="call-btn">📞 Call Support</a>
+
+    <div class="status-container">
+      <div class="availability">AVAILABLE 24/7 · US & CANADA</div>
+      <!-- Updated toll-free number: 1-888-676-9138 -->
+      <a href="tel:+18886769138" class="number-link">+1-888-676-9138</a>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="explore-section">
+      <h2 class="explore-title">More to Explore</h2>
+
+      <div class="explore-grid">
+        <div class="explore-card">
+          <h3>Southwest App</h3>
+          <p>Check in, track flights, and manage your trips from anywhere.</p>
+          <a href="#" class="explore-link">Download</a>
+        </div>
+        <div class="explore-card">
+          <h3>Rapid Rewards®</h3>
+          <p>Earn points, redeem rewards, and discover exclusive member benefits.</p>
+          <a href="#" class="explore-link">Learn more</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footnote">
+      Official Southwest Airlines support line. Standard rates may apply.
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function() {
+      var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/68556f6126a9b719089c1716/1iu6rm62a';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
+
+</body>
+</html>
